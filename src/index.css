@@ -12,8 +12,11 @@ code {
     monospace;
 }
 
-h1 {
+h1,h3 {
   text-align: center;
-  font-size: 25px;
   color: blue;
+}
+
+h1 {
+  font-size: 40px;
 }
