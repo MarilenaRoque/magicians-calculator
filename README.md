@@ -41,9 +41,9 @@ To get a local copy of this project running follow these simple steps.
  > `git clone <repo>`
 - Navigate to the Repo Folder
 - To set Webpack and the dependencies run the command
-> `npm run build`
+> `npm install`
 - Use the command below to start the server. 
-> `npm run build`
+> `npm start`
 - Use your favorite browser to open http://localhost:3000 to view it in the browser.
 
 
