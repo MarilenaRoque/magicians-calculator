@@ -1,12 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class Button extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+function Button() {
+  return (
+    <div />
+  );
 }
 
+export default Button;

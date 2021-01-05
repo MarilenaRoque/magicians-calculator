@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class ButtonPanel extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+function ButtonPanel() {
+  return (
+    <div>Button Panel</div>
+  );
 }
+
+export default ButtonPanel;
