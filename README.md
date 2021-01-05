@@ -20,6 +20,13 @@
  - Install main dependencies
  - Deploy the application
 
+### #2 Milestone Requirements
+  - Build Components: App, Display, ButtonPanel and Button
+  - App renders Display and ButtonPanel
+  - Display receives result and result has its validations and default
+  - Button receives name and name has its validations
+  - ButtonPanel renders groups of Buttons
+
 ## Built With
 
 - Javascript
