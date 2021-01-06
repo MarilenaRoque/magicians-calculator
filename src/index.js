@@ -5,11 +5,11 @@ import App from './components/App';
 import calculate from './logic/calculate';
 
 const testData = {
-  total: 1.5,
-  next: 0,
-  operation: '%',
+  total: null,
+  next: 20,
+  operation: null,
 };
-console.log(calculate(testData, 'AC'));
+console.log(calculate(testData, 'X'));
 
 ReactDOM.render(
   <React.StrictMode>
