@@ -6,10 +6,10 @@ import calculate from './logic/calculate';
 
 const testData = {
   total: 1.5,
-  next: 30,
+  next: 0,
   operation: '%',
 };
-console.log(calculate(testData, '-'));
+console.log(calculate(testData, 'AC'));
 
 ReactDOM.render(
   <React.StrictMode>

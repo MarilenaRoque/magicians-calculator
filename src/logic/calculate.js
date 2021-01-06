@@ -23,7 +23,7 @@ const calculate = (data, buttonName) => {
     case 'X':
     case '-':
     case '+':
-      if (total && next && operation) {
+      if ((total || total === 0) && (next || next === 0) && operation) {
         total = operate(total, next, operation);
         operation = buttonName;
         next = '';
