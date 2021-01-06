@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
-// import operate from './logic/operate';
+import operate from './logic/operate';
 
-// operate(20, 40, '÷');
+operate(0, 20, '%');
 
 ReactDOM.render(
   <React.StrictMode>
