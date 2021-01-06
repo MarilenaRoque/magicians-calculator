@@ -2,9 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
-import operate from './logic/operate';
+import calculate from './logic/calculate';
 
-operate(0, 20, '%');
+const testData = {
+  total: 1.5,
+  next: 30,
+  operation: '%',
+};
+console.log(calculate(testData, '-'));
 
 ReactDOM.render(
   <React.StrictMode>
