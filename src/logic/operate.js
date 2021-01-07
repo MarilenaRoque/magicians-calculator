@@ -17,9 +17,6 @@ const operate = (numberOne, numberTwo, operation) => {
     case '÷':
       result = numberTwo === 0 ? 'ERROR' : newNumberOne.div(newNumberTwo);
       break;
-    case '%':
-      result = (newNumberOne.div(newNumberTwo));
-      break;
     default:
       result = 'ERROR';
   }

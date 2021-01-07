@@ -1,7 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Button from './Button';
 
-function ButtonPanel() {
+function ButtonPanel(props) {
+  const { clickHandler } = props;
   const buttonNames = [
     ['AC', '+/-', '%', '÷'],
     ['7', '8', '9', 'X'],
@@ -21,7 +23,7 @@ function ButtonPanel() {
                   {group.map(name => {
                     countButton += 1;
                     return (
-                      <Button key={countButton} name={name} />
+                      <Button key={countButton} name={name} clickHandler={clickHandler} />
                     );
                   })}
                 </div>
@@ -31,5 +33,9 @@ function ButtonPanel() {
     </div>
   );
 }
+
+ButtonPanel.propTypes = {
+  clickHandler: PropTypes.func.isRequired,
+};
 
 export default ButtonPanel;

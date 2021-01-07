@@ -3,11 +3,12 @@ import operate from './operate';
 const dataDefault = {
   total: null,
   next: null,
-  operation: '',
+  operation: null,
 };
 
 const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
+  if (!next) { next = ''; }
   let newData = {};
   switch (buttonName) {
     case 'AC':
@@ -19,9 +20,9 @@ const calculate = (data, buttonName) => {
       if (total) { total *= -1; }
       next *= -1;
       break;
+    // Transform the last number typed in a percetage based
     case '%':
-      total = operate(next, 100, '%');
-      next = '';
+      next /= 100;
       break;
     case '÷':
     case 'X':
@@ -45,10 +46,12 @@ const calculate = (data, buttonName) => {
       if ((total || total === 0) && (next || next === 0) && operation) {
         total = operate(total, next, operation);
         operation = '';
-        next = '';
+        next = total;
       }
       break;
     default:
+      next = next.toString();
+      next = next.concat(buttonName);
       break;
   }
   newData = { total, next, operation };
