@@ -27,7 +27,7 @@ export default class App extends Component {
       <>
         <button type="button" onClick={() => this.handleClick('7')}>Click Me</button>
         <Display next={next ? next.toString() : '0'} total={total} operator={operator} />
-        <ButtonPanel />
+        <ButtonPanel clickHandler={this.handleClick} />
       </>
     );
   }
