@@ -27,6 +27,23 @@
   - Button receives name and name has its validations
   - ButtonPanel renders groups of Buttons
 
+### #4 Milestone Requirements
+  Calculate
+
+  - Create calculate method to process the data
+  - Add functionalities for buttons ('AC ', '=', '+/-' and math operators)
+  - Use operate method to make operation when the sentence is completed.
+
+  Operate
+
+  - Create method for the basic operations
+  - Use Big.js to operate big numbers
+
+  
+  - Import calculate to App component
+
+
+
 ## Built With
 
 - Javascript
