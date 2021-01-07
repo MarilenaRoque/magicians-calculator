@@ -2,12 +2,13 @@ import operate from './operate';
 
 const dataDefault = {
   total: null,
-  next: 20000,
-  operation: '',
+  next: null,
+  operation: null,
 };
 
 const calculate = (data, buttonName) => {
   let { total, next, operation } = data;
+  if (!next) { next = ''; }
   let newData = {};
   switch (buttonName) {
     case 'AC':
@@ -49,9 +50,7 @@ const calculate = (data, buttonName) => {
       }
       break;
     default:
-      total = dataDefault.total;
-      next = dataDefault.next;
-      operation = dataDefault.operation;
+      next = next.concat(buttonName);
       break;
   }
   newData = { total, next, operation };
