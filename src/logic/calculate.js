@@ -24,18 +24,28 @@ const calculate = (data, buttonName) => {
     case 'X':
     case '-':
     case '+':
+      // if a operator is clicked but there are a completed sentence
+      // It will resolve the operation and the result will turn the total for the next operation
       if ((total || total === 0) && (next || next === 0) && operation) {
         total = operate(total, next, operation);
         operation = buttonName;
         next = '';
+        // if a operator is pressed but the sentence is not completed
+        // it will keep the operator and empty the next variable to receive the second value
       } else if (next || next === 0) {
         total = next;
         next = '';
         operation = buttonName;
       }
       break;
+    case '=':
+      if ((total || total === 0) && (next || next === 0) && operation) {
+        total = operate(total, next, operation);
+        operation = '';
+        next = '';
+      }
+      break;
     default:
-    //   BUILD
       break;
   }
   newData = { total, next, operation };
