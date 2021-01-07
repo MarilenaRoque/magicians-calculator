@@ -1,3 +1,7 @@
+* {
+  font-size: large;
+}
+
 body {
   margin: 0;
   font-family:
@@ -27,6 +31,5 @@ code {
 }
 
 h1 {
-  text-align: center;
-  font-size: 40px;
+  font-size: 55px;
 }

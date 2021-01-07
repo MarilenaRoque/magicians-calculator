@@ -42,7 +42,16 @@
   
   - Import calculate to App component
 
+### #5 Milestone Requirements
 
+  Event Handler
+
+  - Calculate logic should work perfectly with buttons interaction
+  - App is a stateful class Component
+  - Build Handler Method to add button functionality
+  - Use calculate logic to set the state of App attributes
+  - HandleClick is Button Prop and a ButtonPanel prop
+  - Prop HandleClick is attach as an onCLick Event at Buttons Components.
 
 ## Built With
 

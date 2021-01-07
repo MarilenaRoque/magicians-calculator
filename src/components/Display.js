@@ -2,20 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Display(props) {
-  const { result } = props;
+  const { next } = props;
   return (
     <div>
-      <h3>{result}</h3>
+      <h3>{next}</h3>
     </div>
   );
 }
 
 Display.propTypes = {
-  result: PropTypes.string,
+  next: PropTypes.string,
 };
 
 Display.defaultProps = {
-  result: '0',
+  next: '0',
 };
 
 export default Display;
