@@ -15,7 +15,6 @@ export default class App extends Component {
 
   handleClick = buttonName => {
     const data = calculate(this.state, buttonName);
-    console.log(data);
     this.setState(
       data,
     );
@@ -25,7 +24,6 @@ export default class App extends Component {
     const { total, next, operator } = this.state;
     return (
       <>
-        <button type="button" onClick={() => this.handleClick('7')}>Click Me</button>
         <Display next={next ? next.toString() : '0'} total={total} operator={operator} />
         <ButtonPanel clickHandler={this.handleClick} />
       </>

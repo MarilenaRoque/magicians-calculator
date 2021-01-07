@@ -46,10 +46,11 @@ const calculate = (data, buttonName) => {
       if ((total || total === 0) && (next || next === 0) && operation) {
         total = operate(total, next, operation);
         operation = '';
-        next = '';
+        next = total;
       }
       break;
     default:
+      next = next.toString();
       next = next.concat(buttonName);
       break;
   }
