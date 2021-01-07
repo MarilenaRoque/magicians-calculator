@@ -2,7 +2,7 @@ import operate from './operate';
 
 const dataDefault = {
   total: null,
-  next: null,
+  next: 20000,
   operation: '',
 };
 
@@ -49,6 +49,9 @@ const calculate = (data, buttonName) => {
       }
       break;
     default:
+      total = dataDefault.total;
+      next = dataDefault.next;
+      operation = dataDefault.operation;
       break;
   }
   newData = { total, next, operation };
