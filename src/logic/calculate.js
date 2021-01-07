@@ -19,9 +19,9 @@ const calculate = (data, buttonName) => {
       if (total) { total *= -1; }
       next *= -1;
       break;
+    // Transform the last number typed in a percetage based
     case '%':
-      total = operate(next, 100, '%');
-      next = '';
+      next /= 100;
       break;
     case '÷':
     case 'X':

@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 
 calculate({
   total: '',
-  next: '10',
+  next: '80',
   operation: '',
 }, '%');
 
