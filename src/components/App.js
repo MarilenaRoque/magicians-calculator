@@ -6,7 +6,7 @@ calculate({
   total: '',
   next: '10',
   operation: '',
-}, '+/-');
+}, '%');
 
 function App() {
   return (

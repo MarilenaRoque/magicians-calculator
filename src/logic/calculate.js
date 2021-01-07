@@ -20,6 +20,9 @@ const calculate = (data, buttonName) => {
       next *= -1;
       break;
     case '%':
+      total = operate(next, 100, '%');
+      next = '';
+      break;
     case '÷':
     case 'X':
     case '-':

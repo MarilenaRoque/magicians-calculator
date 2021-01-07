@@ -18,7 +18,7 @@ const operate = (numberOne, numberTwo, operation) => {
       result = numberTwo === 0 ? 'ERROR' : newNumberOne.div(newNumberTwo);
       break;
     case '%':
-      result = (newNumberOne.div(100)).times(newNumberTwo);
+      result = (newNumberOne.div(newNumberTwo));
       break;
     default:
       result = 'ERROR';
