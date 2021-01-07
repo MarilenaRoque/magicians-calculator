@@ -2,11 +2,11 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import calculate from '../logic/calculate';
 
-calculate({
+console.log(calculate({
   total: '',
   next: '10',
   operation: '',
-}, '+/-');
+}, '%'));
 
 function App() {
   return (
