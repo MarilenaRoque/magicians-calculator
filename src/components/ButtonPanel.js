@@ -11,6 +11,7 @@ function ButtonPanel(props) {
     ['1', '2', '3', '+'],
     ['0', '.', '='],
   ];
+  const orangeButtons = ['÷', 'X', '-', '+', '='];
   let countButton = 0;
   let countGroup = 0;
   return (
@@ -23,7 +24,7 @@ function ButtonPanel(props) {
                   {group.map(name => {
                     countButton += 1;
                     return (
-                      <Button key={countButton} name={name} clickHandler={clickHandler} />
+                      <Button key={countButton} name={name} clickHandler={clickHandler} color={orangeButtons.includes(name) ? '#F5913E' : null }/>
                     );
                   })}
                 </div>

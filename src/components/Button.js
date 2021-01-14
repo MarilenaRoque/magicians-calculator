@@ -2,17 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Button(props) {
-  const { name, clickHandler } = props;
-
-  const orangeButtons = ['÷', 'X', '-', '+', '='];
-
-  const buttonColor = name => (orangeButtons.includes(name) ? '#F5913E' : '#E0E0E0');
+  const { name, clickHandler, color } = props;
 
   const buttonStyle = {
     height: '100px',
-    backgroundColor: buttonColor(name),
     width: name !== '0' ? '25%' : '50%',
     fontSize: '25px',
+    backgroundColor: color,
   };
 
   return (
@@ -25,9 +21,11 @@ function Button(props) {
 Button.propTypes = {
   name: PropTypes.string,
   clickHandler: PropTypes.func.isRequired,
+  color: PropTypes.string,
 };
 
 Button.defaultProps = {
   name: '',
+  color: '#E0E0E0',
 };
 export default Button;
