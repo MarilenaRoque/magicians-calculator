@@ -9,9 +9,10 @@ function Button(props) {
   const buttonColor = name => (orangeButtons.includes(name) ? '#F5913E' : '#E0E0E0');
 
   const buttonStyle = {
-    height: '110px',
+    height: '100px',
     backgroundColor: buttonColor(name),
     width: name !== '0' ? '25%' : '50%',
+    fontSize: '25px',
   };
 
   return (
