@@ -53,6 +53,8 @@
   - HandleClick is Button Prop and a ButtonPanel prop
   - Prop HandleClick is attach as an onCLick Event at Buttons Components.
 
+### Refactoring to use Hooks
+
 ## Built With
 
 - Javascript
