@@ -24,7 +24,7 @@ function ButtonPanel(props) {
                   {group.map(name => {
                     countButton += 1;
                     return (
-                      <Button key={countButton} name={name} clickHandler={clickHandler} color={orangeButtons.includes(name) ? '#F5913E' : null }/>
+                      <Button key={countButton} name={name} clickHandler={clickHandler} color={orangeButtons.includes(name) ? '#F5913E' : null} />
                     );
                   })}
                 </div>
