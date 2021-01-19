@@ -21,7 +21,7 @@ function Display(props) {
 
   const { next } = props;
   return (
-    <div data-testid='display' style={styleDisplay}>
+    <div data-testid="display" style={styleDisplay}>
       <h3 style={h1Style}>{next}</h3>
     </div>
   );

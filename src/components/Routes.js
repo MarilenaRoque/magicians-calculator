@@ -9,11 +9,13 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Calculator" component={Calculator} />
-        <Route exact path="/Quote" component={Quote} />
-      </Switch>
+      <div data-testid="page-content">
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Calculator" component={Calculator} />
+          <Route exact path="/Quote" component={Quote} />
+        </Switch>
+      </div>
     </BrowserRouter>
   );
 }

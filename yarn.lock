@@ -10271,11 +10271,6 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-addons-test-utils@^15.6.2":
-  "integrity" "sha1-wStu/cIkfBDae4dw0YUICnsEcVY="
-  "resolved" "https://registry.npmjs.org/react-addons-test-utils/-/react-addons-test-utils-15.6.2.tgz"
-  "version" "15.6.2"
-
 "react-app-polyfill@^2.0.0":
   "integrity" "sha512-0sF4ny9v/B7s6aoehwze9vJNWcmCemAUYBVasscVr92+UYiEqDXOxfKjXN685mDaMRNF3WdhHQs76oTODMocFA=="
   "resolved" "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-2.0.0.tgz"
@@ -10318,7 +10313,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^15.4.2", "react-dom@^16.0.0-0", "react-dom@^17.0.0-0", "react-dom@^17.0.1":
+"react-dom@*", "react-dom@^16.0.0-0", "react-dom@^17.0.0-0", "react-dom@^17.0.1":
   "integrity" "sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug=="
   "resolved" "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz"
   "version" "17.0.1"
