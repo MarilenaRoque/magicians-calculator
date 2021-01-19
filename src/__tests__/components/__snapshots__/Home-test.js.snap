@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page Component renders Home page correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "margin": "auto",
+      "width": "70%",
+    }
+  }
+>
+  <h2
+    style={
+      Object {
+        "fontSize": "25px",
+      }
+    }
+  >
+    Welcome to Math Magicians!
+  </h2>
+  <p
+    style={
+      Object {
+        "fontSize": "25px",
+      }
+    }
+  >
+    Math magicians is the tool that you needed to solve your mathematical problems in an easy, faster and fun way. We want to help you and guide you through the Magic Math Land and make you explore the best mathematical experiences.
+  </p>
+  <p
+    style={
+      Object {
+        "fontSize": "25px",
+      }
+    }
+  >
+    Okay...I admit that was corny, but we all know math isn’t always the most exciting subject to teach. That means you have to find strategies to make lessons fun, like gamification in the classroom, math puzzles or -- in this case -- math jokes that will lighten the mood and brighten the vibe in your classroom.
+  </p>
+</div>
+`;
