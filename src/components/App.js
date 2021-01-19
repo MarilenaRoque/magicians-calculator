@@ -23,10 +23,10 @@ export default class App extends Component {
   render() {
     const { total, next, operator } = this.state;
     return (
-      <>
+      <div style={{ width: '700px' }}>
         <Display next={next ? next.toString() : '0'} total={total} operator={operator} />
         <ButtonPanel clickHandler={this.handleClick} />
-      </>
+      </div>
     );
   }
 }

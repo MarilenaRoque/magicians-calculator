@@ -33,3 +33,9 @@ code {
 h1 {
   font-size: 55px;
 }
+
+a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
