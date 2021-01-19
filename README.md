@@ -81,6 +81,14 @@ To get a local copy of this project running follow these simple steps.
 > `npm start`
 - Use your favorite browser to open http://localhost:3000 to view it in the browser.
 
+## Testing
+
+This repo contains files to test the application logic and components.
+You can run the following command on your terminal to run the tests.
+
+> ` yarn test`
+
+or customize them changing the files inside the src/__tests __ folder.
 
 ## Authors
 
