@@ -28,6 +28,7 @@ exports[`Calculator page Component renders Calculator page correctly 1`] = `
     }
   >
     <div
+      data-testid="display"
       style={
         Object {
           "backgroundColor": "#858693",
