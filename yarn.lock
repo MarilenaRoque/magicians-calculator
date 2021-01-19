@@ -1670,7 +1670,7 @@
     "lodash" "^4.17.15"
     "redent" "^3.0.0"
 
-"@testing-library/react@^11.1.0":
+"@testing-library/react@^11.2.2":
   "integrity" "sha512-jaxm0hwUjv+hzC+UFEywic7buDC9JQ1q3cDsrWVSDAPmLotfA6E6kUHlYm/zOeGCac6g48DR36tFHxl7Zb+N5A=="
   "resolved" "https://registry.yarnpkg.com/@testing-library/react/-/react-11.2.2.tgz"
   "version" "11.2.2"
