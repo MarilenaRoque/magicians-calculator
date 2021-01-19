@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote page Component renders Quote page correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "displayDirection": "column",
+      "height": "70vh",
+      "justifyContent": "center",
+    }
+  }
+>
+  <h3
+    style={
+      Object {
+        "fontSize": "30px",
+      }
+    }
+  >
+    What did the triangle say to the circle? “You’re pointless.”
+  </h3>
+</div>
+`;

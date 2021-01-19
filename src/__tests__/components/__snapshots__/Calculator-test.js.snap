@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator page Component renders Calculator page correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "justifyContent": "space-around",
+      "padding": "10px",
+    }
+  }
+>
+  <p
+    style={
+      Object {
+        "fontSize": "30px",
+      }
+    }
+  >
+     Let’s do some math! 
+  </p>
+  <div
+    style={
+      Object {
+        "width": "700px",
+      }
+    }
+  >
+    <div
+      data-testid="display"
+      style={
+        Object {
+          "backgroundColor": "#858693",
+          "color": "white",
+          "display": "flex",
+          "flexDirection": "column",
+          "height": "100px",
+          "justifyContent": "space-around",
+          "padding": "10px",
+        }
+      }
+    >
+      <h3
+        style={
+          Object {
+            "fontSize": "60px",
+            "fontWeight": "bold",
+            "margin": "0px",
+            "textAlign": "right",
+          }
+        }
+      >
+        0
+      </h3>
+    </div>
+    <div
+      className="Panel"
+    >
+      <div
+        className="group"
+      >
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          %
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F5913E",
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="group"
+      >
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          7
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          8
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          9
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F5913E",
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          X
+        </button>
+      </div>
+      <div
+        className="group"
+      >
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          4
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          5
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          6
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F5913E",
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="group"
+      >
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          1
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          2
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          3
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F5913E",
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="group"
+      >
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "50%",
+            }
+          }
+          type="button"
+        >
+          0
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": null,
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          .
+        </button>
+        <button
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundColor": "#F5913E",
+              "fontSize": "25px",
+              "height": "100px",
+              "width": "25%",
+            }
+          }
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
