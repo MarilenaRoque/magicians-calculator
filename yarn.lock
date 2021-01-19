@@ -1656,7 +1656,7 @@
     "lz-string" "^1.4.4"
     "pretty-format" "^26.6.2"
 
-"@testing-library/jest-dom@^5.11.4":
+"@testing-library/jest-dom@^5.11.6":
   "integrity" "sha512-cVZyUNRWwUKI0++yepYpYX7uhrP398I+tGz4zOlLVlUYnZS+Svuxv4fwLeCIy7TnBYKXUaOlQr3vopxL8ZfEnA=="
   "resolved" "https://registry.yarnpkg.com/@testing-library/jest-dom/-/jest-dom-5.11.6.tgz"
   "version" "5.11.6"

@@ -1,6 +1,7 @@
 import renderer from "react-test-renderer";
 import Quote from "../../components/Quote";
-
+import {render, fireEvent, screen} from '@testing-library/react'
+import '@testing-library/jest-dom';
 
 describe('Quote page Component', () => {
 
@@ -11,3 +12,13 @@ describe('Quote page Component', () => {
   });
   
 })
+
+describe('Testing Quote components', () => {
+
+  it("Quotes renders a quote with the right text", () => {
+    render(<Quote></Quote>)
+    expect(screen.getByRole('heading')).toHaveTextContent("You’re pointless.")
+  });
+  
+})
+
